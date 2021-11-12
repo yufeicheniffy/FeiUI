@@ -13,11 +13,13 @@ $color-black-light-8: rgba($color-black, 0.08); // #EBEBEC
 $color-black-light-4: rgba($color-black, 0.04); // #F5F5F5
 $color-primary: #1890ff;
 $color-primary-light-50: rgba($color-primary, 0.5); // #8BC7FF
-$color-primary-light-8: rgba($color-primary, 0.08); // #1890FF
+$color-primary-light-8: #1890FF; // #1890FF
 $color-primary-click: #1373cc;
 $color-primary-disable: #F3F4F5;
 $color-green: #ffc500;
 $color-red: #ff3b30;
+  //normal
+$color-normal: #ffffff;
 
 //文字字体
 @mixin font-family($family...) {
@@ -73,3 +75,10 @@ $font-size-normal: 14px;
   -webkit-box-shadow: $shadows;
   box-shadow: $shadows;
 }
+//iconfont
+    .icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }

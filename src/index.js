@@ -1,7 +1,7 @@
 import Button from './packages/components/button/index' //按钮组件
-
+import Icon from './packages/components/icon/index' //Icon组件
 const components = [
-  Button,
+  Button,Icon
 ]
 
 const install = (Vue) => {
